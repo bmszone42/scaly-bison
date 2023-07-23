@@ -1,6 +1,5 @@
 streamlit
 pandas
-datetime
 time
 textblob
 textwrap
