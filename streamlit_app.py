@@ -100,7 +100,7 @@ def main():
     if selected_feed_numbers.upper() == 'A':
         selected_feeds = all_feeds
     else:
-        selected_feeds = [all_feeds[int(i)-1] for i in selected_feed_numbers.split(',')]
+        selected_feeds = [all_feeds[int(i)-1] for i in selected_feed_numbers.split(',') if i]
 
     # List of companies to check
     companies = ['Apple', 'Microsoft', 'Google', 'Amazon', 'Nvidia', 'Tesla', 'TSMC']
